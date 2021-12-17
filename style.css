@@ -1,0 +1,122 @@
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header-content,.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding:5px;
+    margin:0px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+a{
+    list-style: none;
+}
+.body{
+    flex-grow:1;
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+}
+.awesome{
+    display:flex;
+    font-size:36px;
+    font-weight: extra-bold;
+    font: #1F2937;
+    
+}
+img{
+    flex-shrink: 1;
+}
+.random{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.images{
+    display:flex;
+    gap:20px;
+    padding: 10px;
+}
+.sign-up{
+    border-radius:15px;
+    margin: 60px;
+    display:flex;
+    background-color: #3882F6;
+    align-items:center;
+    justify-content: space-around;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+    min-height:100vh;
+    flex:1;
+}
+@media screen and (max-width:768px){
+    .images{
+        flex-wrap: wrap;
+    }
+}
+.image{
+    border: 2px solid;
+    border-radius: 5%;
+    width: 200px;
+    height:auto;
+}
+.quote{
+    font-size:36px;
+    font-weight:italic;
+    min-height:200px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding:10px;
+}
+.logo{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height:auto;
+    min-width:300px;
+}
+button{
+    background-color:#3882F6;
+    border:0px;
+    border-radius: 10px;
+    width:100px;
+    height:40px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-links{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.header-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:auto;
+}
+.sign-up-button{
+    border: 2px solid #E5E7EB; 
+}
+.strong{
+    display: flex;
+    justify-content: flex-end;
+}
